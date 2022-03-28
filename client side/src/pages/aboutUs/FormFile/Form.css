@@ -1,0 +1,112 @@
+.form-container {
+    margin: 100px auto;
+    width: 1000px;
+    position: relative;
+    border-radius: 10px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 1.5rem;
+    z-index: 1;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  
+  .form-success {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .form-content-right {
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+
+  }
+  
+  .form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form h1 {
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  .form p {
+    font-size: 1rem;
+    color: rgb(35, 140, 209);
+    
+    
+  }
+  
+  .form-inputs {
+    margin-bottom: 0.5rem;
+    width: 80%;
+  }
+  
+  .form-inputs p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+  }
+  
+  .form-label {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    color: #fff;
+  }
+  
+  .form-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 100%;
+    border: none;
+  }
+  
+  
+  
+  .form-input-btn {
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 2px;
+    background:paleturquoise;
+    color: rgb(0, 0, 0);
+  
+  }
+  
+ 
+  
+  .form-input-login {
+    font-size: 0.8rem;
+    color: #fff;
+  }
+  
+  .form-input-login a {
+    color: #27cdff;
+    font-weight: 600;
+  }

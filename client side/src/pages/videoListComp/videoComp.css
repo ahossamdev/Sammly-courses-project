@@ -1,0 +1,16 @@
+.border-1rem { 
+     border-radius: 20px;
+}
+
+.video-screen { 
+     height: 40rem;
+}
+.w-35 { 
+     width: 31%;
+}
+.imgW { 
+     width: 150px;
+}
+.pointerrr{
+     cursor:"pointer"
+}

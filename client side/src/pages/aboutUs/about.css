@@ -1,0 +1,95 @@
+.about-section{
+  /* background-color : rgb(253, 234, 192); */
+  background: #ecdfec;
+
+  padding-top : 40 px;
+  padding-bottom : 40 px;
+}
+
+
+.section-ourteam{
+  margin: 70px;
+  box-shadow: 0 5px 5px 0 rgba(248, 226, 186, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
+  width: 700px;
+  align-items: center;
+  margin-left: 25%;
+}
+
+.accordion-header{
+  text-align: center;
+}
+.nameincard{
+  align-items: center;
+}
+
+.section-ourteam-main-heading{
+  font-size: 40px;
+  font-style: oblique;
+  font-weight: bold;
+  color :rgb(97, 61, 7)
+}
+
+
+ .section-ourplan{
+  margin: 70px;
+  box-shadow: 0 5px 5px 0 rgba(248, 226, 186, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
+  width: 700px;
+  align-items: center;
+  margin-left: 25%;
+}
+
+
+.section-ourplan-main-heading{
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+    color :rgb(97, 61, 7)
+}
+
+
+.underline{
+  height: 04px;
+  width:  4rem;
+background-color:rgb(85, 63, 16);
+  margin-top:10px ;
+  margin-bottom: 10px;
+}
+
+.section-ourteam1{
+  margin: 70px;
+  box-shadow: 0 4px 8px 0 rgba(229, 207, 165, 0.2), 0 50px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.section-joinus{
+
+  margin: 70px;
+  box-shadow: 0 5px 5px 0 rgba(248, 226, 186, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
+  width: 700px;
+  align-items: center;
+  margin-left: 25%;}
+
+.section-joinus-main-heading{
+  font-size: 40px;
+  font-style: oblique;
+  font-weight: bold;
+  color :rgb(97, 61, 7)
+}
+
+
+.d-block1{
+  width: 200px;
+  background-color: rgb(221, 192, 130);  
+}
+
+
+/* style slider */
+.d-block {
+  height: 500px;
+  width: 2px;
+}
+
+

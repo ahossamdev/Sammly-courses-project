@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+#programs {
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 20px 0;
+}
+
+#programs .head-title {
+  margin-bottom: 40px;
+  font-size: 37px;
+  margin-left: 400px;
+}
+
+.owl-carousel.owl-loaded {
+  display: block;
+}
+
+.owl-carousel {
+  width: 100%;
+  z-index: 1;
+}
+
+#programs .card .card-img .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #6d60b6;
+  opacity: 0.3;
+}
+
+#programs .card {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  position: relative;
+  width: 30%;
+  margin: 10px;
+}
+#programs div .pro1 {
+  width: 350px;
+  height: 350px;
+  background-image: url(https://miro.medium.com/max/1400/1*jK6RD3xKfcED9y4fzheJWQ.jpeg);
+  background-color: #e6cdb9;
+  background-repeat: no-repeat;
+  background-size: 750px;
+  background-position: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#programs .pro2 {
+  width: 350px;
+  height: 350px;
+  background-image: url(../../images/pexels-engin-akyurt-1520587.jpg);
+  border-radius: 50%;
+  background-size: cover;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#programs .pro3 {
+  width: 350px;
+  height: 350px;
+  background-image: url(../../images/pexels-ricardo-esquivel-1964471.jpg);
+  border-radius: 50%;
+  background-size: cover;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+div.item {
+  display: flex;
+}
+
+#programs .card .card-img {
+  position: relative;
+  width: 100%;
+  height: 190px;
+}
+#programs .card .card-img img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+#programs .card .card-img .price {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  background: #4323d1;
+  padding: 5px 20px;
+  font-size: 19px;
+  font-weight: 600;
+  border-radius: 20px 0 0;
+}
+
+#programs .card:hover {
+  box-shadow: 4px 8px 12px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  border: 1px solid #0a2a66;
+  transform: translatey(-4px);
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px #0a2a66 0 24px 46px var(--box-shadow-color);
+  box-shadow: 1px 1px 10px 0 #0a2a66;
+  animation: shake 0.8s;
+  -webkit-animation: shake 1s;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  25% {
+    transform: translateY(25px);
+    -webkit-transform: translateY(25px);
+    -moz-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -o-transform: translateY(25px);
+  }
+
+  50% {
+    transform: translateY(-25px);
+    -webkit-transform: translateY(-25px);
+    -moz-transform: translateY(-25px);
+    -ms-transform: translateY(-25px);
+    -o-transform: translateY(-25px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.title1 {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  color: #000000;
+}

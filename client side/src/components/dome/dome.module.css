@@ -1,0 +1,30 @@
+.dome1 {
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+
+    background-image: url(../../images/vase1.jpg);
+    background-size: cover;
+    margin: auto;
+}
+.dome2 {
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+
+    background-image: url(../../images/vase3.jpg);
+    background-size: cover;
+    margin: auto;
+}
+.dome3 {
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+
+    background-image: url(../../images/vase5.jpg);
+    background-size: cover;
+    margin: auto;
+}

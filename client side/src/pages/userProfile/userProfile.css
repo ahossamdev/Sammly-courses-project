@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+.profile-style{
+    margin-top:50px;
+    text-align:center;
+    margin-bottom:50px;
+    font-family: 'Sansita Swashed', cursive;
+    color: #E67E22
+}
+
+.img-style{
+    justify-items: center;
+    margin-bottom:30px;
+}
+.edit-style{
+    margin-top:30px;
+    margin-bottom:50px;
+    width: 30%;
+    margin-left: 30%;
+}
+.all-style{
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.70);
+    height: 650px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    border-radius: 20px;
+    align-items: center;
+}
+.person-style{
+    margin-right: 50px;
+}

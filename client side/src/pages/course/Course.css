@@ -1,0 +1,8 @@
+
+.course { 
+     background-color: #222;
+     background-image: url('./images/backgroundcard.jpg');
+     background-size: cover;
+     height: 18rem;
+     width: 100%;
+}

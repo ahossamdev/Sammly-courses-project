@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap");
+
+.title {
+  color: #020101;
+  font-family: "Sansita Swashed", cursive;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 50px;
+  padding: 1rem
+}
+
+.body {
+  /* background-color: rgb(243, 186, 155); #f6ddcc*/
+  background-color: #ecdfec;
+}
+
+.raduis {
+  border-radius: 200px 200px 0px 0px;
+}
+
+.imgSize {
+  max-width: 290px;
+  margin: auto;
+  
+}
+.text{
+  padding: 0 1rem;
+  font-size: 18px;
+}
+
+#card:hover {
+  /* animation: none 3s cubic-bezier(0.19, 1, 0.22, 1) 0s 0; */
+  /* transform: translateY(10px); */
+  animation: course 2s linear infinite;
+  cursor: pointer;
+}
+@keyframes course {
+  0% {
+    background-position: 200% center;
+    transform: translateY(0em);
+    -webkit-transform: translateY(0em);
+    -moz-transform: translateY(0em);
+    -ms-transform: translateY(0em);
+    -o-transform: translateY(0em);
+  }
+  50% {
+    transform: translateY(-1rem);
+    -webkit-transform: translateY(-1rem);
+    -moz-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    -o-transform: translateY(-1rem);
+  }
+}
+
+.cardbtn {
+  padding: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  border: 2px solid #d50000;
+  background: transparent;
+  color: #d50000;
+  border-radius: 0.2rem;
+  transition: background 200ms ease-in, color 200ms ease-in;
+}
+ #card :hover {
+  transform: scale(1.10);
+}
+  #card .cardbtn:hover {
+  background: #d50000;
+  color: white;
+}

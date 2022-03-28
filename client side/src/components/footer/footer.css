@@ -1,0 +1,50 @@
+footer {
+    background-color: #e7b5f7;
+    color: #6d6565 !important;
+}
+
+p.dowrat {
+    font-weight: bolder;
+    font-size: 40px;
+    transform: perspective(500px) rotateY(-42deg);
+    -webkit-transform: perspective(500px) rotateY(-42deg);
+    -moz-transform: perspective(500px) rotateY(-42deg);
+    -ms-transform: perspective(500px) rotateY(-42deg);
+    -o-transform: perspective(500px) rotateY(-42deg);
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes rotate {
+    0% {
+      transform: perspective(500px) rotateY(-42deg);
+      -webkit-transform: perspective(500px) rotateY(-42deg);
+      -moz-transform: perspective(500px) rotateY(-42deg);
+      -ms-transform: perspective(500px) rotateY(-42deg);
+      -o-transform: perspective(500px) rotateY(-42deg);
+    }
+    50% {
+      transform: perspective(500px) rotateY(0deg);
+      -webkit-transform: perspective(500px) rotateY(0deg);
+      -moz-transform: perspective(500px) rotateY(0deg);
+      -ms-transform: perspective(500px) rotateY(0deg);
+      -o-transform: perspective(500px) rotateY(0deg);
+    }
+    100% {
+      transform: perspective(500px) rotateY(-42deg);
+      -webkit-transform: perspective(500px) rotateY(-42deg);
+      -moz-transform: perspective(500px) rotateY(-42deg);
+      -ms-transform: perspective(500px) rotateY(-42deg);
+      -o-transform: perspective(500px) rotateY(-42deg);
+    }
+  }
+  
+  .logoImg {
+    
+  width: 145px;
+  border-radius: 23%;
+
+  }

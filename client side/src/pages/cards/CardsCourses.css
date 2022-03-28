@@ -1,0 +1,35 @@
+.imgWidth  {
+     width: 100% ; 
+     height: 18rem;
+     padding: 5px 
+}
+
+.Size1rem { 
+     font-size: 1rem !important;
+}
+
+
+.cardcoursrs{
+     background-image: linear-gradient(#FAD7A0 ,#FAE5D3   ,#EDBB99);
+     border: solid 2px #ccaf7f;
+     border-radius: 20px;
+}
+
+.cardcoursrs:hover{
+     overflow: hidden;
+     padding: 2px;
+     /* margin: 40px 20px; */
+     background-image:linear-gradient(#dbe6fa ,#FAE5D3   ,#EDBB99);
+}
+
+.imgWidth  {
+     width: 100% ; 
+     height: 18rem;
+     padding: 5px ;
+}
+
+.Size1rem { 
+     font-size: 1rem !important;
+}
+
+

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.sammly-style{
+    font-family: 'Dancing Script', cursive;
+    font-size:5rem;
+    color: #BA4A00;
+}
+.submit-style{
+    margin-right: 20px;
+    background-color: #229954 ;
+    border-color:#229954 ;
+    width: 40%;
+    align-items: center;
+    margin-left:170px;
+}
+.cont-style{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.50);
+    width:700px;
+    margin-left: 100px;
+}
+.backg-style{
+    background:linear-gradient(#EB984E,#FAD7A0 ,#FAE5D3 ,#F6DDCC  ,#EDBB99 ) ;
+    align-items: center;
+}
